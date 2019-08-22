@@ -18,13 +18,19 @@ From here I use the head and tail command to show the first 5 lines and the last
 
 ![image](https://user-images.githubusercontent.com/27305718/63532534-811e5080-c4d0-11e9-8180-0750cb936494.png)
 Visualizing the file in hue. 
+![image](https://user-images.githubusercontent.com/27305718/63532814-233e3880-c4d1-11e9-8690-bc45f48a6435.png)
+The original data sets.  
 ![image](https://user-images.githubusercontent.com/27305718/63532569-95fae400-c4d0-11e9-9a7e-5887cb80d543.png)
 The original data sets. 
 ![image](https://user-images.githubusercontent.com/27305718/63532574-98f5d480-c4d0-11e9-8ea4-34b2c1233f80.png)
 Making a 3rd file 
 ![image](https://user-images.githubusercontent.com/27305718/63532579-9b582e80-c4d0-11e9-991b-e4b2fcfff24a.png)
+
 ![image](https://user-images.githubusercontent.com/27305718/63532588-9eebb580-c4d0-11e9-92b2-d54ed87f0a05.png)
+
 ![image](https://user-images.githubusercontent.com/27305718/63532592-a14e0f80-c4d0-11e9-95c9-5e6952ea24ee.png)
+
 ![image](https://user-images.githubusercontent.com/27305718/63532604-a612c380-c4d0-11e9-8f62-74d71721ac2e.png)
+
 ![image](https://user-images.githubusercontent.com/27305718/63532623-ad39d180-c4d0-11e9-8b49-a9b67e28e151.png)
 As we can see the 3 data sets are now combined. As the 3rd data set is clearly visible in the first 3 lines then the amount of pages is the same as when we combined the first 2 data sets. 

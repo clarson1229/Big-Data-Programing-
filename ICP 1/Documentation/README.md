@@ -1,5 +1,5 @@
 # ICP 1 Documentation 
-
+## by Connor Larson 
 
 ![image](https://user-images.githubusercontent.com/27305718/63532448-546a3900-c4d0-11e9-8d30-e3e95987d4a0.png)
 First I created the local file using vim. 
@@ -33,10 +33,10 @@ Making a 3rd File**
 ![image](https://user-images.githubusercontent.com/27305718/63532579-9b582e80-c4d0-11e9-991b-e4b2fcfff24a.png)
 
 ![image](https://user-images.githubusercontent.com/27305718/63532588-9eebb580-c4d0-11e9-92b2-d54ed87f0a05.png)
-**Appending the file**
+**Appending the file into hadoop**
 
 ![image](https://user-images.githubusercontent.com/27305718/63532592-a14e0f80-c4d0-11e9-95c9-5e6952ea24ee.png)
-**visualizing the file**
+**visualizing the fil in hadoop**
 
 **Appending the original files to the 3rd file in Hadoop.**
 ![image](https://user-images.githubusercontent.com/27305718/63532604-a612c380-c4d0-11e9-8f62-74d71721ac2e.png)

@@ -21,7 +21,7 @@ From here I use the head and tail command to show the first 5 lines and the last
 
 
 ![image](https://user-images.githubusercontent.com/27305718/63532534-811e5080-c4d0-11e9-8180-0750cb936494.png)
-**Visualizing the file in hue. 
+**visualizing the file in hue. 
 ![image](https://user-images.githubusercontent.com/27305718/63532814-233e3880-c4d1-11e9-8690-bc45f48a6435.png)
 The original data sets.  
 ![image](https://user-images.githubusercontent.com/27305718/63532569-95fae400-c4d0-11e9-9a7e-5887cb80d543.png)
@@ -31,12 +31,13 @@ Making a 3rd File**
 **Putting that file into Hadoop**
 
 ![image](https://user-images.githubusercontent.com/27305718/63532579-9b582e80-c4d0-11e9-991b-e4b2fcfff24a.png)
-**Appending the file**
 
 ![image](https://user-images.githubusercontent.com/27305718/63532588-9eebb580-c4d0-11e9-92b2-d54ed87f0a05.png)
-**Visulizing the file**
+**Appending the file**
 
 ![image](https://user-images.githubusercontent.com/27305718/63532592-a14e0f80-c4d0-11e9-95c9-5e6952ea24ee.png)
+**visualizing the file**
+
 **Appending the original files to the 3rd file in Hadoop.**
 ![image](https://user-images.githubusercontent.com/27305718/63532604-a612c380-c4d0-11e9-8f62-74d71721ac2e.png)
 

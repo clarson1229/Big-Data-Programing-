@@ -16,9 +16,8 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class WordCount {
 
-    public static class TokenizerMapper
+    public static class FriendMapper
             extends Mapper<Object, Text, Text, Text> {
-
         private final static IntWritable one = new IntWritable(1);
         private Text user = new Text();
 
@@ -40,7 +39,7 @@ public class WordCount {
         }
     }
 
-    public static class IntSumReducer
+    public static class FriendReducer
             extends Reducer<Text, Text, Text, Text> {
         private Text result = new Text();
 
@@ -58,13 +57,11 @@ public class WordCount {
                     set1.retainAll(set2);
                 }
             }
-
             Object[] joinedList= set1.toArray();
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i< joinedList.length; i++){
                 sb.append( joinedList[i] + "," );
             }
-
             result.set(new Text(sb.toString()));
             context.write(key,result);
         }
@@ -74,9 +71,9 @@ public class WordCount {
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "word count");
         job.setJarByClass(WordCount.class);
-        job.setMapperClass(TokenizerMapper.class);
-        job.setCombinerClass(IntSumReducer.class);
-        job.setReducerClass(IntSumReducer.class);
+        job.setMapperClass(FriendMapper.class);
+        job.setCombinerClass(FriendReducer.class);
+        job.setReducerClass(FriendReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
         FileInputFormat.addInputPath(job, new Path(args[0]));

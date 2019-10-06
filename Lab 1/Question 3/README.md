@@ -114,6 +114,7 @@ JOIN hero_powers pow ON hi.hero_name = pow.hero_name
 WHERE pow.flight = TRUE;
 ```
 result:
+
 ![query 7 image](assets/query7.png)
 
 8. Name and publisher of all heroes with a lantern power ring

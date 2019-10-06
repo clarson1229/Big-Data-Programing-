@@ -126,3 +126,24 @@ WHERE lantern_power_ring = TRUE;
 ```
 result:
 ![query 8 image](assets/query8.png)
+
+9. Get all races with animal attributes
+```sql
+SELECT race
+FROM hero_information hi
+JOIN hero_powers pow ON hi.hero_name = pow.hero_name
+WHERE animal_attributes = TRUE
+GROUP BY race;
+```
+result:
+![query 9 image](assets/query9.png)
+
+10. get all hero names and publishers with super strength and good alignment
+```sql
+SELECT hi.hero_name, hi.publisher
+FROM hero_information hi
+JOIN hero_powers pow ON hi.hero_name = pow.hero_name
+WHERE super_strength = TRUE;
+```
+result
+![query 10 image](assets/query10.png)
